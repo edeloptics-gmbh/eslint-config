@@ -1,0 +1,7 @@
+{
+  "name": "eslint-config-edeloptics",
+  "version": "1.0.0",
+  "description": "ESLint shareable config for Edeloptics JavaScript projects.",
+  "main": "index.js",
+  "homepage": "https://github.com/edeloptics-gmbh/eslint-config-edeloptics"
+}
