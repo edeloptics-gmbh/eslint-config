@@ -8,6 +8,7 @@ module.exports = {
         'space-before-function-paren': [ 2, 'always' ],
         'object-curly-spacing': [ 2, 'always' ],
         'array-bracket-spacing': [ 2, 'always' ],
+        'computed-property-spacing': 'off',
         'require-jsdoc': [ 0, {
             'require': {
                 'FunctionDeclaration': true,
