@@ -15,6 +15,28 @@ module.exports = {
                 'ClassDeclaration': true
             }
         } ],
-        'padded-blocks': [ 2, { classes: 'always' } ]
+        'padded-blocks': [ 2, { classes: 'always' } ],
+        'vue/order-in-components': [ "warning", {
+            "order": [
+                "el",
+                "name",
+                "parent",
+                "functional",
+                ["delimiters", "comments"],
+                ["components", "directives", "filters"],
+                "extends",
+                "mixins",
+                "inheritAttrs",
+                "model",
+                ["props", "propsData"],
+                "data",
+                "computed",
+                "LIFECYCLE_HOOKS",
+                "methods",
+                "watch",
+                ["template", "render"],
+                "renderError",
+            ]
+        } ]
     }
 };
