@@ -21,7 +21,7 @@ module.exports = {
         ],
         'padded-blocks': [ 2, { classes: 'always' } ],
         'vue/order-in-components': [
-            'warning',
+            'warn',
             {
                 'order': [
                     'el',
