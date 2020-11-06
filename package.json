@@ -1,7 +1,22 @@
 {
-  "name": "eslint-config",
+  "name": "@edeloptics/eslint-config",
   "version": "1.0.0",
   "description": "ESLint shareable config for Edeloptics JavaScript projects.",
   "main": "index.js",
-  "homepage": "https://github.com/edeloptics-gmbh/eslint-config"
+  "homepage": "https://github.com/edeloptics-gmbh/eslint-config",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edeloptics-gmbh/eslint-config.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Tim Kilian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edeloptics-gmbh/eslint-config/issues"
+  }
 }
