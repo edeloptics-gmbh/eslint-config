@@ -2,6 +2,8 @@
 
 module.exports = {
     rules: {
+        'semi': [ 'error', 'always' ],
+        'comma-dangle': [ 'error', 'always-multiline' ],
         'no-console': 0,
         'indent': [ 2, 4, { SwitchCase: 1 } ],
         'no-unused-vars': 1,
@@ -48,6 +50,7 @@ module.exports = {
         'max-len': [
             'error',
             {
+                'ignorePattern': '^(import|export).*|require[(]|d="',
                 'ignoreComments': true,
                 'ignoreTrailingComments': true,
                 'ignoreUrls': true,
